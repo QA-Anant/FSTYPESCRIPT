@@ -13,7 +13,7 @@
 
     // d. void
     function sayHello(): void {
-        console.log("Hello there")
+        console.log("Hello there, let's learn typescript")
     }
     sayHello()
 

@@ -9,7 +9,7 @@ var name1 = "John";
 var isMarried = false;
 // d. void
 function sayHello() {
-    console.log("Hello there");
+    console.log("Hello there, let's learn typescript");
 }
 sayHello();
 // e. null
