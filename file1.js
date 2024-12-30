@@ -9,7 +9,7 @@ var name1 = "John";
 var isMarried = false;
 // d. void
 function sayHello() {
-    console.log("Hello");
+    console.log("Hello there");
 }
 sayHello();
 // e. null
@@ -39,5 +39,10 @@ var person = {
     age: 34
 };
 console.log(person);
+var employee = {
+    name: "Anant Jain",
+    age: 34,
+    isMarried: true
+};
 // 5. Classes
 // 6. Interfaces

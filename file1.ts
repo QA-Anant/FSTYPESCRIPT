@@ -13,7 +13,7 @@
 
     // d. void
     function sayHello(): void {
-        console.log("Hello")
+        console.log("Hello there")
     }
     sayHello()
 
