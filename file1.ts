@@ -3,7 +3,7 @@
 
 // 1. Primitive types
     // a. number
-    let age: number = 20
+    const age: number = 20
 
     // b. string
     let name1: string = "John"
@@ -35,18 +35,18 @@ ages.push(50)
 console.log(ages)
 
 // 3. Functions
-function calculateAge(age : number):number{
+function calculateMyAge(age : number):number{
     return age + 1
 }
 
-function getname(name: string):string{
+function getName(name: string):string{
     return name
 }
 
-let firstname : string = getname("Anant")
+let firstname : string = getName("Anant")
 console.log(firstname)
 
-console.log(calculateAge(20)) // 201
+console.log(calculateMyAge(20)) // 201
 
 // 4. Objects
 
@@ -65,4 +65,5 @@ let employee :{name:string, age:number, isMarried:boolean} = {
 }
 
 // 5. Classes
+
 // 6. Interfaces

@@ -24,15 +24,15 @@ var ages = [20, 30, 40];
 ages.push(50);
 console.log(ages);
 // 3. Functions
-function calculateAge(age) {
+function calculateMyAge(age) {
     return age + 1;
 }
-function getname(name) {
+function getName(name) {
     return name;
 }
-var firstname = getname("Anant");
+var firstname = getName("Anant");
 console.log(firstname);
-console.log(calculateAge(20)); // 201
+console.log(calculateMyAge(20)); // 201
 // 4. Objects
 var person = {
     firstname: "Anant Jain",
