@@ -58,7 +58,7 @@ let person :{firstname:string, age:number} = {
 console.log(person)
 
 
-let employee :{name:string, age:number, isMarried:boolean} = {
+let employee1 :{name:string, age:number, isMarried:boolean} = {
     name: "Anant Jain",
     age: 34,
     isMarried: true

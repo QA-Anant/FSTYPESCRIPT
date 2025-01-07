@@ -1,0 +1,21 @@
+declare function fx(a: number, b: number): number;
+declare const f2: (a: number, b: number) => number;
+declare const f3: (a: number, b: number) => number;
+declare const f4: (a: any, b: any) => any;
+declare function f5(a: number, b?: number): number;
+declare function f6(a: number, b?: number): number;
+declare function f7(...args: number[]): number;
+declare function f8(a: number, b: number, callback: (a: number, b: number) => number): number;
+declare function f9(): (a: number, b: number) => number;
+declare function f10(callback: (a: number, b: number) => number): (a: number, b: number) => number;
+declare function f11(callback: (a: number, b: number) => number): (a: string, b: string) => string;
+type functionWith2Inputs = (a: number, b: number) => number;
+declare function calculate(n1: number, n2: number, cb: functionWith2Inputs, d: objectWith2Properties): number;
+declare function sum(n1: number, n2: number): number;
+declare function minus(n1: number, n2: number): number;
+type objectWith2Properties = {
+    name: string;
+    age: number;
+};
+declare const obj: objectWith2Properties;
+declare const value: number;
